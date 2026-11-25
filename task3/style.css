@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+      background: #fff;
+}
+img{
+     width: 80px;
+    height: 80px;
+
+}
+
+/* Logo Header */
+.header {
+    height: 124px;
+    padding: 24px 18px;
+    color: white;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #963333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 42px;
+}
+/* Main Background */
+.container {
+    margin: 0 0 0 18px;
+    min-height: 878px;
+    background-color: #923131;
+    padding: 58px 0 75px 8.5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Left Content */
+.left-section {
+    width: 37%;
+    margin-top: -10px;
+}
+
+.left-section h1 {
+    font-size: 58px;
+    font-weight: 900px;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+.left-section p {
+    color: #170909;
+    font-size: 13px;
+    line-height: 1.8;
+    max-width: 350px;
+    margin-bottom: 12px;
+
+}
+
+.left-section h2 {
+    font-family:Arial;
+    color:black;
+    font-size: 23px;
+    line-height: 1.4;
+    font-weight: 900;
+    
+    
+}
+/* Right Form */
+.right-section {
+    width: 36%;
+    max-width: 325px;
+    margin-right: 9%;
+    align-self: flex-start;
+}
+
+.right-section form > input {
+    width: 100%;
+    height: 42px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #e6cccc;
+    background: transparent;
+     color: white;
+    font-size: 11px;
+    outline: none;
+}
+.right-section form > input::placeholder {
+    color: #fff;
+}
+
+/* Award Heading */
+.right-section h2 {
+    color: #130707;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 3px;
+
+}
+.right-section small {
+    display: block;
+    color: #fff;
+    font-size: 7px;
+    margin-bottom: 12px;
+}
+
+/* Award Options */
+.award {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.award label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.award input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    accent-color: white;
+    cursor: pointer;
+}
+.award textarea {
+    display: block;
+    width: 100%;
+    height: 58px;
+    padding: 7px;
+    border: 2px solid #e6cccc;
+    background: transparent;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    resize: none;
+    outline: none;
+}
+.award textarea::placeholder {
+    color: white;
+}
+
+/* Submit Button */
+button {
+    width: 92%;
+    height: 40px;
+    margin-top: 23px;
+    background: #fff;
+    color: #444;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
